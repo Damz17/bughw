@@ -226,8 +226,8 @@ const anakau = {
 video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
-caption:`Haii 👋 Kak ${pushname} Selamat ${salam} *Aku Adalah Bot Hw Mods*
-Agar Bot Bisa Di Gunakan Silahkan Ketik [ Verifikasi ] Di Group Apapun
+caption:`HALO ${pushname} Selamat ${salam} 
+Agar Bot Bisa Di Gunakan Silahkan Ketik  *Verifikasi*
  `
 }
 haikal.sendMessage(m.chat, anakau, {quoted: hw})
@@ -242,13 +242,13 @@ video:fs.readFileSync("./baseikal/video/haikal.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption:  `
-Haii 👋 Kak ${pushname} Selamat ${salam} 
+Halo ${pushname} Selamat ${salam} 
 
-🌷 Nama : ${pushname}
-🌷 Status : Verifikasi
-🌷 Total User : ${_registered.length}
+🏴‍☠️ Nama : ${pushname}
+🏴‍☠️ Status : Verifikasi
+🏴‍☠️ Total User : ${_registered.length}
 
-*Silahkan Ketik Menu Untuk Menggunakan Bot`,
+*Silahkan Ketik *Menu* Untuk Menggunakan Bot`,
 }
 haikal.sendMessage(m.chat, anu, {quoted: hw})
 }
@@ -4297,25 +4297,15 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ Owner : ${botname}
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
 
-[ 🇲🇨 Ini adalah Bot Pribadi  Dari Indonesia 👋 ]
+[ *A17-MD* 👋 ]
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *MENU*
 ┏━━⊱ 
 ┣❏➥ bot
-┣❏➥ scraperimage
-┣❏➥ asupanmata
+
 ┣❏➥ scrapconvert
 ┣❏➥ bugmenu
-┣❏➥ randomsound
-┣❏➥ nsfw
-┣❏➥ soundbot
-┣❏➥ funnmenu
-┣❏➥ primbonmenu
 ┣❏➥ islamiyah
-┣❏➥ voicechanger
-┣❏➥ beritanews
-┣❏➥ cmdmenu
-┣❏➥ searchmenu
 ┣❏➥ groupmenu
 ┣❏➥ downloadmenu
 ┣❏➥ ownermenu
