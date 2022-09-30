@@ -458,7 +458,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT HW MODS WA",
+"name": "ASSALAMU'ALAIKUM",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -4465,7 +4465,7 @@ bug4 [ bug mentions ]
 bug5 [ bug mentions ]
 bug6 [ bug mentions ]
 bug7 [ bug mentions ]
-poll [ bug vote ]
+🗣️ [ bug vote ]
 gaskal [ Abis Kirim Gaskal Kasih Reactions ]
 bugtag [ Bug Yang Sambil Ngetag ]
 inibug [ Bug Tagall ]
