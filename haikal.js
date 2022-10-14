@@ -787,7 +787,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.id })
 }
 break
-case 'buglokas': {
+case 'kak!': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
@@ -804,7 +804,7 @@ haikal.relayMessage(m.chat, location.message, { messageId: location.key.id })
 }
 break
 //=================================================//
-case 'buginvite': {
+case 'kak:': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
@@ -1064,7 +1064,7 @@ if (!m.isGroup) throw groupon(from)
 haikal.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: doc })
 }
 break
-case 'hiya':{
+case 'Alo':{
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
 if (!isCreator) return
